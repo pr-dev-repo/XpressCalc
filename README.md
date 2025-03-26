@@ -1,8 +1,8 @@
-# Excelator - Excel-Like Formula Processing Library
+# XpressCalc  - Excel-Like Formula Processing Library
 
-![Excelator](https://img.shields.io/badge/version-1.0.5-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![XpressCalc](https://img.shields.io/badge/version-1.0.5-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-**Excelator** is a lightweight JavaScript library that enables Excel-like calculations in HTML input fields. It supports numeric inputs, arithmetic operations, and real-time validation.
+**XpressCalc ** is a lightweight JavaScript library that enables Excel-like calculations in HTML input fields. It supports numeric inputs, arithmetic operations, and real-time validation.
 
 ## 🚀 Features
 
