@@ -18,13 +18,13 @@
 Include the script in your HTML file:
 
 ```html
-<script src="path/to/excelator.js"></script>
+<script src="path/to/XpressCalc.js"></script>
 ```
 
 Or, install via npm:
 
 ```sh
-npm install excelator
+npm install XpressCalc 
 ```
 
 ## 🚀 Usage
@@ -45,7 +45,7 @@ Ensure your inputs are wrapped inside a container with `id="calc-zone"` and have
 The library will automatically process the input on `focusout`:
 
 ```js
-Excelator.attachEventListeners();
+XpressCalc .attachEventListeners();
 ```
 
 ### 3️⃣ Supported Input Formats
@@ -60,33 +60,33 @@ Excelator.attachEventListeners();
 
 ## ⚡ API Methods
 
-### `Excelator.processSingleInput(input)`
+### `XpressCalc.processSingleInput(input)`
 Manually process an input field.
 
 ```js
 const input = document.querySelector('input');
-Excelator.processSingleInput(input);
+XpressCalc.processSingleInput(input);
 ```
 
-### `Excelator.validateKeypress(event)`
+### `XpressCalc.validateKeypress(event)`
 Prevents invalid characters from being entered.
 
 ```js
-document.querySelector('input').addEventListener('keydown', Excelator.validateKeypress.bind(Excelator));
+document.querySelector('input').addEventListener('keydown', XpressCalc.validateKeypress.bind(XpressCalc));
 ```
 
-### `Excelator.setError(input, message)`
+### `XpressCalc.setError(input, message)`
 Applies error styling and focus.
 
 ```js
-Excelator.setError(document.querySelector('input'), 'Invalid input!');
+XpressCalc.setError(document.querySelector('input'), 'Invalid input!');
 ```
 
-### `Excelator.clearError(input)`
+### `XpressCalc.clearError(input)`
 Removes error styling.
 
 ```js
-Excelator.clearError(document.querySelector('input'));
+XpressCalc.clearError(document.querySelector('input'));
 ```
 
 ## 🛠️ Customization
